@@ -1,0 +1,108 @@
+
+.body{
+    background-color: #fafcfc; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*estilo texto HORARIOS*/
+
+.dia-sem, .sab {
+    font-weight: 900;
+    color: #2c4355;
+    font-size:large
+}
+
+.hora-sem, .hora-sab {
+    font-style: italic;
+    color: #2c4355;
+    font-size:small
+}
+
+/*estilo HEADER*/
+.header {
+    background-color: #2c4355;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 1%;
+}
+
+
+/*estilo MENU*/
+.menu li{ 
+    list-style: none;
+    display:inline-flex;
+    padding: 0 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(235, 227, 217); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+        
+}
+
+/*estilo MAIN*/
+.texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 35%;
+    
+}
+
+.texto .info{
+    margin-top: 3%;
+}
+
+
+/*estilo FOOTER*/
+.seguinos {
+    background-color: #2c4355;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(235, 227, 217);
+    padding: 10px;
+    margin: auto;
+    text-align: right;
+    
+}
+
+/*estilo AUTOR*/
+.seguinos .autor{
+    text-align:center;
+}
+
+/*estilo redes*/
+.seguinos a{
+    text-decoration: none;
+}
+
+
+
+/*estilo FORMULARIO*/
+.formulario{
+    border: 1px solid black; 
+    padding: 20px; 
+  }
+
+/*prod y servicios*/
+.cajas{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+.cajas img{
+    width: 100%;
+}
+
+/*promos*/
+.promo{
+    display:grid;
+    width: 100%
+}
+
+/*@media (min-width: 768px) {
+    .cajas {
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+}

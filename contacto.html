@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZARTECH</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="logo">
+            <a href="zartech.html">
+                <img src="zartech.png" alt="logo zartech" width="60"> 
+            </a>
+            
+        </div>
+        <nav>
+            <ul class="menu"> 
+                <li><a href="nosotros.html">Nosotros</a></li>  
+                <li><a href="productos.html">Productos</a></li> 
+                <li><a href="horario.html">Horario de atención</a></li> 
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="texto">
+                    
+        <form class="formulario" action="#" method="get">
+            <h3>Contactanos</h3>
+            <label for="nombre"> Nombre </label>
+            <input type="text" maxlength="10" placeholder="Nombre">
+            <br>
+            <br>
+
+            <label for="apellido"> Apellido </label>
+            <input type="text" maxlength="20" placeholder="Apellido">
+            <br>
+            <br>
+
+            <label for="empresa"> Empresa </label>
+            <input type="text" maxlength="20" placeholder="Empresa">
+            <br>
+            <br>
+
+            <label for="mail"> Mail </label>
+            <input type="text" maxlength="20" placeholder="Mail" required>
+            <br>
+            <br>
+
+            <label for="telefono"> Teléfóno </label>
+            <input type="text" maxlength="20" placeholder="Teléfono" required>
+            <br>
+            <br>
+
+            <p>Condición:</p>
+            <label for="mayorista">Mayorista</label> 
+            <input type="radio" name="condicion">
+            <br>
+            <label for="minorista">Minorista</label> 
+            <input type="radio" name="condicion">
+            <br>
+            <br>
+
+            Área de interés:
+            <br>
+            <input type="checkbox" name="pc"> PC de escritorio<br>
+            <input type="checkbox" name="notebook"> Notebook<br>
+            <input type="checkbox" name="componentes"> Componentes<br>
+            <input type="checkbox" name="accsorios"> Accesorios<br>
+            <input type="checkbox" name="consumibles"> Consumibles<br>
+            <input type="checkbox" name="gaming"> Productos gamer<br>
+            <input type="checkbox" name="soporte"> Soporte Técnico<br>
+            <br>
+
+
+            Cómo nos conociste?
+            <select id="conocer" name="conocer"> 
+                <option value="0"> </option>
+                <option value="1"> Me recomendaron</option>
+                <option value="2"> Redes sociales</option>
+                <option value="3"> Vi su local</option>
+                <option value="4"> Publicidad</option>
+            </select>
+            <br>
+            <br>
+
+            <p><b>Dejanos tu consulta o comentario</b></p>
+            <textarea name="consulta" id="idconsulta" cols="30" rows="10" required></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+
+        </form>
+    </main>
+    
+   
+    <footer  class="seguinos">
+        <h5> Seguinos
+            <br>
+            <a href="https://www.instagram.com/zartech_/" target="_blank">
+                <img src="instagram.png" alt="Logo Instagram" width="20">
+            </a>
+            <a href="https://www.facebook.com/zartech" target="_blank">
+                <img src="facebook.png" alt="Logo Facebook" width="20">
+            </a>  
+            <a href="https://www.linkedin.com/company/zartechc" target="_blank">
+                <img src="linkedin.png" alt="Logo Linkedin" width="20">
+            </a> 
+                
+        </h5>
+        
+        <h6 class="autor">Página creada por Leslie para ZARTECH</h6>      
+    </footer>
+</body>
+</html>
